@@ -1,4 +1,4 @@
-# Advent of Code - Towel Design
+# Advent of Code 2024 Day 19: Linen Layout
 
 This project is a Kotlin-based solution to day 19 from **Advent of Code 2024**, which calculates the number of possible towel designs based on given patterns.
 
