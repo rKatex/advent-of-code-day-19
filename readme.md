@@ -22,7 +22,7 @@ The solution:
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository_url>
+   git clone git@github.com:rKatex/advent-of-code-day-19.git
    ```
 2. **Run the Program:**
    Use Gradle to build and execute the `main()` function in `Main.kt`. You can do this with:
