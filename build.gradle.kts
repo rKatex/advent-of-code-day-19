@@ -1,6 +1,5 @@
 plugins {
     kotlin("jvm") version "2.0.21"
-    application
 }
 
 group = "com.rkatex"
@@ -10,6 +9,13 @@ repositories {
     mavenCentral()
 }
 
-application {
-    mainClass.set("MainKt")
+dependencies {
+    val assertJVersion = "3.11.1"
+
+    testImplementation(kotlin("test"))
+    testImplementation("org.assertj:assertj-core:$assertJVersion")
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
